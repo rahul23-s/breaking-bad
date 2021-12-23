@@ -76,6 +76,9 @@ const Content = styled.div`
   align-items: center;
   justify-content: space-evenly;
   color: #ffffff;
+  padding-bottom: 40px;
+  padding-left: 20px;
+
   img {
     height: 90vh;
     padding: 30px;
@@ -90,6 +93,23 @@ const Content = styled.div`
   p {
     font-size: 20px;
   }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+
+    img {
+      width: 80%;
+      height: 75vh;
+    }
+  }
+  @media (max-width: 400px) {
+    img {
+      width: 100%;
+      height: 60vh;
+      padding: 20px;
+      padding-left: 0;
+    }
+  }
 `;
 
 const Data = styled.div``;
@@ -99,12 +119,17 @@ const Quotes = styled.div`
   width: 90%;
   height: fit-content;
   margin: 10px 0;
+  padding-top: 20px;
   background: #000214;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
   color: #ffffff;
+  h1 {
+    padding: 10px 15px;
+    text-align: center;
+  }
 `;
 
 const Card = styled.div`
