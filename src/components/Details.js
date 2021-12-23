@@ -135,7 +135,8 @@ const Quotes = styled.div`
 const Card = styled.div`
   width: 90%;
   margin: 20px;
-  height: 10vh;
+  min-height: 10vh;
+  height: fit-content;
   padding: 10px;
   color: #000214;
   background: #f1f1f1;

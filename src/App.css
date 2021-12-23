@@ -9,9 +9,10 @@
 
 .paginationButtons a {
   padding: 10px;
-  margin: 9px;
-  border-radius: 100%;
-  border: 1px solid #000214;
+  margin: 1.2vw;
+  border-radius: 10%;
+  border: 1px solid #ffffff00;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: #000214;
   cursor: pointer;
   transition: 0.3s;
@@ -21,7 +22,7 @@
   color: #ffffff;
   transition: 0.3s;
   background-color: #404041;
-  border: 1px solid #ffffff;
+  border: 1px solid #404041;
 }
 .paginationActive a {
   color: #ffffff;
